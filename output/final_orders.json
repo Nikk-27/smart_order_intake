@@ -1,0 +1,221 @@
+{
+    "sample_email_1.txt": {
+        "customer": "John Smith",
+        "delivery_date": "Unknown",
+        "address": "John Smith, 123 Maple Street, Springfield, IL 62704",
+        "items": [
+            {
+                "sku": "CFT-0167",
+                "product_name": "Coffee STRÅDAL 620",
+                "quantity": 9,
+                "price": 676.25,
+                "total": 6086.25,
+                "valid": true,
+                "issue": null,
+                "suggested_alternative": null
+            },
+            {
+                "sku": "LVS-0439",
+                "product_name": "Loveseat HEMNHOLM 512",
+                "quantity": 2,
+                "price": 510.96,
+                "total": 1021.92,
+                "valid": true,
+                "issue": null,
+                "suggested_alternative": null
+            },
+            {
+                "sku": "SFA-0142",
+                "product_name": "Sofa VIKTMARK 446",
+                "quantity": 10,
+                "price": 327.56,
+                "total": 3275.6,
+                "valid": true,
+                "issue": null,
+                "suggested_alternative": null
+            },
+            {
+                "sku": "WRD-0267",
+                "product_name": "Wardrobe LUNDLUND 757",
+                "quantity": 8,
+                "price": 902.11,
+                "total": 7216.88,
+                "valid": false,
+                "issue": "Quantity exceeds stock (3)",
+                "suggested_alternative": {
+                    "suggested_qty": 3
+                }
+            }
+        ],
+        "total_amount": 10383.77,
+        "notes": "Some items did not meet MOQ or stock requirements."
+    },
+    "sample_email_2.txt": {
+        "customer": "Lena Müller",
+        "delivery_date": "2025-07-01",
+        "address": "45 Königstraße, Stuttgart, Germany",
+        "items": [
+            {
+                "sku": "BDF-0213",
+                "product_name": "Bed TRÄNBERG 858",
+                "quantity": 2,
+                "price": 337.61,
+                "total": 675.22,
+                "valid": true,
+                "issue": null,
+                "suggested_alternative": null
+            },
+            {
+                "sku": "DCH-0077",
+                "product_name": "Dining FJÄRDAL 292",
+                "quantity": 5,
+                "price": 897.05,
+                "total": 4485.25,
+                "valid": false,
+                "issue": "Quantity below MOQ (10)",
+                "suggested_alternative": {
+                    "suggested_qty": 10
+                }
+            }
+        ],
+        "total_amount": 675.22,
+        "notes": "Some items did not meet MOQ or stock requirements."
+    },
+    "sample_email_3.txt": {
+        "customer": "Carlos Ramirez",
+        "delivery_date": "2025-06-22",
+        "address": "Carlos Ramirez, Av. Insurgentes Sur 3500, Mexico City",
+        "items": [
+            {
+                "sku": "BST-0299",
+                "product_name": "Bar FJÄRMARK 344",
+                "quantity": 3,
+                "price": 334.91,
+                "total": 1004.73,
+                "valid": false,
+                "issue": "Quantity below MOQ (10)",
+                "suggested_alternative": {
+                    "suggested_qty": 10
+                }
+            },
+            {
+                "sku": "ODT-0389",
+                "product_name": "Outdoor VALLHOLM 134",
+                "quantity": 3,
+                "price": 161.33,
+                "total": 483.99,
+                "valid": false,
+                "issue": "Quantity below MOQ (10)",
+                "suggested_alternative": {
+                    "suggested_qty": 10
+                }
+            },
+            {
+                "sku": "CST-0494",
+                "product_name": "Console LUNDBERG 220",
+                "quantity": 7,
+                "price": 275.62,
+                "total": 1929.34,
+                "valid": false,
+                "issue": "Quantity below MOQ (10)",
+                "suggested_alternative": {
+                    "suggested_qty": 10
+                }
+            },
+            {
+                "sku": "CST-0482",
+                "product_name": "Console VALLSUND 240",
+                "quantity": 3,
+                "price": 476.74,
+                "total": 1430.22,
+                "valid": true,
+                "issue": null,
+                "suggested_alternative": null
+            }
+        ],
+        "total_amount": 1430.22,
+        "notes": "Some items did not meet MOQ or stock requirements."
+    },
+    "sample_email_4.txt": {
+        "customer": "Fatima Al-Sayeed",
+        "delivery_date": "2025-06-30",
+        "address": "Al-Mutannabi St, Beirut, Lebanon",
+        "items": [
+            {
+                "sku": "LVS-0445",
+                "product_name": "Loveseat FJÄRBERG 744",
+                "quantity": 7,
+                "price": 1103.55,
+                "total": 7724.85,
+                "valid": true,
+                "issue": null,
+                "suggested_alternative": null
+            },
+            {
+                "sku": "WRD-0275",
+                "product_name": "Wardrobe SNÖRSKÄR 220",
+                "quantity": 8,
+                "price": 396.63,
+                "total": 3173.04,
+                "valid": true,
+                "issue": null,
+                "suggested_alternative": null
+            },
+            {
+                "sku": "OTM-0451",
+                "product_name": "Ottoman TRÄNSUND 415",
+                "quantity": 6,
+                "price": 679.8,
+                "total": 4078.8,
+                "valid": true,
+                "issue": null,
+                "suggested_alternative": null
+            }
+        ],
+        "total_amount": 14976.69,
+        "notes": "No issues noted."
+    },
+    "sample_email_5.txt": {
+        "customer": "Yuki Tanaka",
+        "delivery_date": "2025-06-18",
+        "address": "2-11-3 Meguro, Tokyo, Japan",
+        "items": [
+            {
+                "sku": "OFC-0336",
+                "product_name": "Office LUNDMARK 699",
+                "quantity": 8,
+                "price": 590.66,
+                "total": 4725.28,
+                "valid": false,
+                "issue": "Quantity below MOQ (10)",
+                "suggested_alternative": {
+                    "suggested_qty": 10
+                }
+            },
+            {
+                "sku": "NST-0249",
+                "product_name": "Nightstand SNÖRFORS 19",
+                "quantity": 1,
+                "price": 511.86,
+                "total": 511.86,
+                "valid": true,
+                "issue": null,
+                "suggested_alternative": null
+            },
+            {
+                "sku": "BST-0293",
+                "product_name": "Bar MÖRKDAL 443",
+                "quantity": 3,
+                "price": 569.7,
+                "total": 1709.1,
+                "valid": false,
+                "issue": "Quantity below MOQ (5)",
+                "suggested_alternative": {
+                    "suggested_qty": 5
+                }
+            }
+        ],
+        "total_amount": 511.86,
+        "notes": "Some items did not meet MOQ or stock requirements."
+    }
+}

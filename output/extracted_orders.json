@@ -1,0 +1,101 @@
+{
+    "sample_email_1.txt": {
+        "customer": "John Smith",
+        "delivery_date": "Unknown",
+        "address": "John Smith, 123 Maple Street, Springfield, IL 62704",
+        "items": [
+            {
+                "name": "Coffee STRÅDAL 620",
+                "quantity": 9
+            },
+            {
+                "name": "Loveseat HEMNHOLM 512",
+                "quantity": 2
+            },
+            {
+                "name": "Sofa VIKTMARK 446",
+                "quantity": 10
+            },
+            {
+                "name": "Wardrobe LUNDLUND 757",
+                "quantity": 8
+            }
+        ]
+    },
+    "sample_email_2.txt": {
+        "customer": "Lena Müller",
+        "delivery_date": "2025-07-01",
+        "address": "45 Königstraße, Stuttgart, Germany",
+        "items": [
+            {
+                "name": "Bed TRÄNBERG 858",
+                "quantity": 2
+            },
+            {
+                "name": "Dining FJÄRDAL 292",
+                "quantity": 5
+            }
+        ]
+    },
+    "sample_email_3.txt": {
+        "customer": "Carlos Ramirez",
+        "delivery_date": "2025-06-22",
+        "address": "Carlos Ramirez, Av. Insurgentes Sur 3500, Mexico City",
+        "items": [
+            {
+                "name": "Bar FJÄRMARK 344",
+                "quantity": 3
+            },
+            {
+                "name": "Outdoor VALLHOLM 134",
+                "quantity": 3
+            },
+            {
+                "name": "Console LUNDBERG 220",
+                "quantity": 7
+            },
+            {
+                "name": "Console VALLSUND 240",
+                "quantity": 3
+            }
+        ]
+    },
+    "sample_email_4.txt": {
+        "customer": "Fatima Al-Sayeed",
+        "delivery_date": "2025-06-30",
+        "address": "Al-Mutannabi St, Beirut, Lebanon",
+        "items": [
+            {
+                "name": "Loveseat FJÄRBERG 744",
+                "quantity": 7
+            },
+            {
+                "name": "Wardrobe SNÖRSKÄR 220",
+                "quantity": 8
+            },
+            {
+                "name": "Ottoman TRÄNSUND 415",
+                "quantity": 6
+            }
+        ]
+    },
+    "sample_email_5.txt": {
+        "customer": "Yuki Tanaka",
+        "delivery_date": "2025-06-18",
+        "address": "2-11-3 Meguro, Tokyo, Japan",
+        "items": [
+            {
+                "name": "Office LUNDMARK 699",
+                "quantity": 8
+            },
+            {
+                "name": "Nightstand SNÖRFORS 19",
+                "quantity": 1
+            },
+            {
+                "name": "Bar MÖRKDAL 443",
+                "quantity": 3
+            }
+        ]
+    }
+}
